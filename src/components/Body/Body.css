@@ -1,0 +1,79 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    border: 1px solid #f0f;
+    margin: auto;
+}
+
+.body .smallText1 {
+    /* border: 1px solid #0ff; */
+    margin-top: 150px;
+    width: 150px;
+    margin-bottom: -55px;
+    margin-left: 45px;
+}
+
+.body .smallText1 h2 {
+    font-size: 22px;
+    color: #494949;
+    font-weight: 500;
+}
+
+.body .mainText {
+    /* border: 1px solid #0ff; */
+    width: 370px;
+    margin-left: 45px;
+}
+
+.body .mainText h1 {
+    font-size: 55px;
+    color: #494949;
+    font-weight: bold
+}
+
+.body .mainText .job {
+    margin-top: -40px;
+}
+
+.body .smallText2 {
+    /* border: 1px solid #0ff; */
+    width: 360px;
+    margin-top: -55px;
+    margin-left: 45px;
+}
+
+.body .smallText2 h2 {
+    font-size: 22px;
+    color: #242424;
+    font-weight: 500;
+}
+
+.body .aboutMe {
+    margin-left: 45px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    width: 250px;
+    box-shadow: 2px 2px 5px #242424;
+    cursor: pointer;
+    transition: filter 1.7s;
+}
+
+.body .aboutMe h2 {
+    color: #000;
+}
+
+.body .aboutMe:hover {
+    filter: brightness(1.2);
+    background-color: #f0f;
+}
+
+.imageDev img{
+    width: 100px;
+    height: 100px;
+}
