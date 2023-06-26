@@ -1,32 +1,24 @@
 import "./Body.css";
-import developer from "../../assets/developer-icon.jpg";
+import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 
 function Body() {
   return (
-    <div className="body">
-      <div className="main">
-        <div className="smallText1">
-          <h2>Hello World,</h2>
-        </div>
+    <div className="main">
+      <div className="smallText1">
+        <h2>HELLO 👋 I'M VICTOR</h2>
+      </div>
 
-        <div className="mainText">
-          <h1>I am a </h1>
-          <div className="job">
-            <h1>Web Developer</h1>
-          </div>
+      <div className="mainText">
+        <div className="job">
+          <h1>REACT</h1>
         </div>
+        <div className="category">
+          <h1>DEVELOPER</h1>
+        </div>
+      </div>
 
-        <div className="smallText2">
-          <h2>welcome to my portfolio website!</h2>
-        </div>
-
-        <div className="aboutMe">
-          <h2>More about me</h2>
-        </div>
-
-        <div className="imageDev">
-          <img src={developer} alt="Developer Image" />
-        </div>
+      <div className="smallText2">
+        <h2>I'M 19 AND I'M A FRONT-END DEVELOPER FOR 1 YEAR.</h2>
       </div>
     </div>
   );

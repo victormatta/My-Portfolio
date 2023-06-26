@@ -1,79 +1,76 @@
-.body {
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 99.9%;
     height: 100vh;
-    border: 1px solid #f0f;
-    margin: auto;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
 }
 
-.body .smallText1 {
-    /* border: 1px solid #0ff; */
-    margin-top: 150px;
-    width: 150px;
-    margin-bottom: -55px;
-    margin-left: 45px;
+.mainText h1 {
+    font-size: 180px;
 }
 
-.body .smallText1 h2 {
-    font-size: 22px;
-    color: #494949;
-    font-weight: 500;
+.mainText {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+     height: 580px;
+     width: 100%;
+     justify-content: center;
 }
 
-.body .mainText {
-    /* border: 1px solid #0ff; */
-    width: 370px;
-    margin-left: 45px;
+.mainText .job {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 100%;
 }
 
-.body .mainText h1 {
-    font-size: 55px;
-    color: #494949;
-    font-weight: bold
+.mainText .category {
+    margin-top: -270px;
+    display: flex;
+    justify-content: center;
 }
 
-.body .mainText .job {
-    margin-top: -40px;
+.smallText1 {
+    /* border: 1px solid black; */
+    width: 1325px;
+    height: 50px;
+    display: flex;
+    /* margin-bottom: -220px; */
 }
 
-.body .smallText2 {
-    /* border: 1px solid #0ff; */
-    width: 360px;
-    margin-top: -55px;
-    margin-left: 45px;
+.smallText2 {
+    width: 1325px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: -200px;
+    display: flex;
+    justify-content: end;
 }
 
-.body .smallText2 h2 {
-    font-size: 22px;
-    color: #242424;
-    font-weight: 500;
-}
-
-.body .aboutMe {
-    margin-left: 45px;
-    border: 1px solid #000;
+.image {
+    /* border: 1px solid black; */
+    width: 800px;
+    height: 100px;
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
-    height: 50px;
-    width: 250px;
-    box-shadow: 2px 2px 5px #242424;
+    margin-left: -100px;
+}
+
+.image .boxImage {
+    padding: 30px;
+}
+
+.icon {
     cursor: pointer;
-    transition: filter 1.7s;
-}
-
-.body .aboutMe h2 {
-    color: #000;
-}
-
-.body .aboutMe:hover {
-    filter: brightness(1.2);
-    background-color: #f0f;
-}
-
-.imageDev img{
-    width: 100px;
-    height: 100px;
 }
