@@ -3,4 +3,9 @@
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
+    /* background-color: rgb(54, 11, 94); */
+    background-color: rgb(39, 6, 70);
+    background-image: radial-gradient(circle, rgb(126, 72, 177) 0%, rgba(54, 11, 94, 0) 80%);
+    background-repeat: no-repeat;
+    background-position: center center;
 }

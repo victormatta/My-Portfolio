@@ -1,76 +1,293 @@
-body {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .main {
     display: flex;
     flex-direction: column;
     width: 99.9%;
     height: 100vh;
-    /* border: 1px solid black; */
-    align-items: center;
+    border: 1px solid black;
     justify-content: center;
+    align-items: center;
 }
 
-.mainText h1 {
-    font-size: 180px;
+.main .mySelf {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1000px;
+    height: 50px;
+    /* border: 1px solid black; */
 }
 
-.mainText {
+.main .mySelf h1 {
+    font-size: 16px;
+    margin-top: 180px;
+    color: rgb(192, 170, 212);
+}
+
+.main .job {
+    font-size: 250px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-     height: 580px;
-     width: 100%;
-     justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: #fff;
 }
 
-.mainText .job {
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 100%;
-}
-
-.mainText .category {
-    margin-top: -270px;
-    display: flex;
-    justify-content: center;
-}
-
-.smallText1 {
-    /* border: 1px solid black; */
-    width: 1325px;
-    height: 50px;
-    display: flex;
-    /* margin-bottom: -220px; */
-}
-
-.smallText2 {
-    width: 1325px;
-    height: 200px;
-    /* border: 1px solid black; */
-    margin-top: -200px;
-    display: flex;
-    justify-content: end;
-}
-
-.image {
-    /* border: 1px solid black; */
-    width: 800px;
-    height: 100px;
-    margin-top: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -100px;
-}
-
-.image .boxImage {
-    padding: 30px;
-}
-
-.icon {
+.iconIten {
+    padding: 10px;
+    margin-bottom: 55px;
+    margin-left: 45px;
     cursor: pointer;
 }
+
+.iconIten :hover {
+    color: #fff;
+}
+
+.category {
+    margin-top: -135px;
+}
+
+.main .mySelf2 {
+    width: 1000px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main .mySelf2 h1 {
+    font-size: 16px;
+    margin-bottom: 170px;
+    color: rgb(192, 170, 212);
+}
+
+.arrowMain {
+    display: flex;
+    justify-content: flex-end;
+}
+
+  @media screen and (max-width: 1280px ) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 99.9%;
+        height: 100vh;
+        border: 1px solid black;
+        margin-top: -300px;
+    }
+    
+    .main .mySelf {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 400px;
+        height: 50px;
+        /* border: 1px solid black; */
+    }
+    
+    .main .mySelf h1 {
+        font-size: 7px;
+        margin-top: 100px;
+        color: rgb(192, 170, 212);
+    }
+    
+    .main .job {
+        font-size: 100px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        /* border: 1px solid black; */
+        justify-content: center;
+    }
+    
+    .iconIten {
+        padding: 12px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+        width: 23px;
+        height: 23px;
+    }
+    
+    .iconIten :hover {
+        color: #fff;
+    }
+    
+    .category {
+        margin-top: -55px;
+    }
+    
+    .main .mySelf2 {
+        width: 400px;
+        height: 30px;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .main .mySelf2 h1 {
+        font-size: 7px;
+        margin-bottom: 80px;
+        color: rgb(192, 170, 212);
+    }
+    
+    .arrowMain {
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
+  
+  @media screen and (max-width: 480px ) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 99.9%;
+        height: 1000px;
+        border: 1px solid black;
+        margin-top: -300px;
+    }
+    
+    .main .mySelf {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        /* border: 1px solid black; */
+    }
+    
+    .main .mySelf h1 {
+        font-size: 5px;
+        margin-top: 70px;
+        color: rgb(192, 170, 212);
+    }
+    
+    .main .job {
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        /* border: 1px solid black; */
+        justify-content: center;
+    }
+    
+    .iconIten {
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        cursor: pointer;
+        width: 11px;
+        height: 11px;
+    }
+    
+    .iconIten :hover {
+        color: #fff;
+    }
+    
+    .category {
+        margin-top: -25px;
+    }
+    
+    .main .mySelf2 {
+        width: 200px;
+        height: 50px;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .main .mySelf2 h1 {
+        font-size: 5px;
+        margin-bottom: 66px;
+        color: rgb(192, 170, 212);
+    }
+    
+    .arrowMain {
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
+
+  @media screen and (max-width: 280px ) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 99.9%;
+        height: 1000px;
+        border: 1px solid black;
+        margin-top: -300px;
+    }
+    
+    .main .mySelf {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 160px;
+        height: 50px;
+        /* border: 1px solid black; */
+    }
+    
+    .main .mySelf h1 {
+        font-size: 5px;
+        margin-top: 70px;
+        color: rgb(192, 170, 212);
+    }
+    
+    .main .job {
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Anton', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        /* border: 1px solid black; */
+        justify-content: center;
+    }
+    
+    .iconIten {
+        padding: 3px;
+        margin-bottom: 8px;
+        margin-left: 5px;
+        cursor: pointer;
+        width: 9px;
+        height: 9px;
+    }
+    
+    .iconIten :hover {
+        color: #fff;
+    }
+    
+    .category {
+        margin-top: -22px;
+    }
+    
+    .main .mySelf2 {
+        width: 160px;
+        height: 30px;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .main .mySelf2 h1 {
+        font-size: 5px;
+        margin-bottom: 50px;
+        color: rgb(192, 170, 212);
+    }
+    
+    .arrowMain {
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
