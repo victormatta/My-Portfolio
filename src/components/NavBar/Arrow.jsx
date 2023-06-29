@@ -1,9 +1,12 @@
 import { IoMdArrowUp } from "react-icons/io";
+import "./Arrow.css";
 
 function Arrow() {
   return (
     <div className="arrowMain">
-      <IoMdArrowUp size={40} color="553377" />
+      <a href="#nav">
+        <IoMdArrowUp size={50} className="arrow" />
+      </a>
     </div>
   );
 }

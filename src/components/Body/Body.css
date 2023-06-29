@@ -11,7 +11,36 @@
     background-repeat: no-repeat;
     background-position: center center;
     margin-top: -120px;
+    z-index: 1;
 }
+
+/* .melt-effect {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  
+  .melt-effect svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    fill: #FFF;
+    transform-origin: bottom center;
+    animation: melt 2s ease-in-out forwards;
+  }
+  
+  @keyframes melt {
+    0% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(0);
+    }
+  } */
 
 .main .mySelf {
     display: flex;
@@ -65,11 +94,6 @@
     font-size: 16px;
     margin-bottom: 170px;
     color: rgb(192, 170, 212);
-}
-
-.arrowMain {
-    display: flex;
-    justify-content: flex-end;
 }
 
   @media screen and (max-width: 1280px ) {

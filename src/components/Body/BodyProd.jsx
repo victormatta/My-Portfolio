@@ -5,6 +5,10 @@ import ToDoList from "../../assets/ToDoList.png";
 import MacBook from "../../assets/FrameMacBook.jpg";
 
 function BodyProd() {
+  const link1 = "https://github.com/victormatta/StoreDiversifiedProducts";
+  const link2 = "https://github.com/victormatta/ToDoList";
+  const link3 = "https://github.com/victormatta/Full-Stack-Project";
+
   return (
     <div className="bodyProd">
       <div className="welcome">
@@ -17,7 +21,17 @@ function BodyProd() {
           </div>
 
           <div className="webStore">
-            <img src={WebStore} alt="Web Store" />
+            <a href={link1} target="_blank" rel="noopener noreferrer">
+              <img src={WebStore} alt="Web Store" />
+            </a>
+            <div className="titleProd">
+              <h1>Store WebSite</h1>
+
+              <p>
+                The project is a store about products purchases and sales. You
+                can buy everything supermarket products to mobile devices.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -27,7 +41,17 @@ function BodyProd() {
           </div>
 
           <div className="manager">
-            <img src={ProjectManager} alt="Web Store" />
+            <a href={link3} target="_blank" rel="noopener noreferrer">
+              <img src={ProjectManager} alt="Web Store" />
+            </a>
+            <div className="titleProd">
+              <h1>Project Manager</h1>
+
+              <p>
+                Do you know somewhere that you can save everything your
+                projects?<strong>It's here!</strong>
+              </p>
+            </div>
           </div>
         </div>
 
@@ -37,7 +61,17 @@ function BodyProd() {
           </div>
 
           <div className="todo">
-            <img src={ToDoList} alt="Web Store" />
+            <a href={link2} target="_blank" rel="noopener noreferrer">
+              <img src={ToDoList} alt="Web Store" />
+            </a>
+            <div className="titleProd">
+              <h1>ToDo List</h1>
+
+              <p>
+                Do you need organization? Here you can write down everything and
+                have control over yours projects or tasks.
+              </p>
+            </div>
           </div>
         </div>
         {/* <div className="img">

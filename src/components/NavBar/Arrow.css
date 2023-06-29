@@ -1,0 +1,30 @@
+.arrowMain {
+    width: 99.9%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.arrow {
+    box-shadow: 4px 5px 6px 2px rgb(56, 56, 56);
+    background-color: rgb(86, 16, 151);
+    background-image: radial-gradient(circle, rgb(128, 70, 182) 0%, rgba(54, 11, 94, 0) 80%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    color: rgb(24, 23, 23);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.arrow:hover {
+    background-color: rgb(102, 16, 182);
+    background-image: radial-gradient(circle, rgb(96, 17, 170) 0%, rgba(54, 11, 94, 0) 80%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 51px;
+    height: 51px;
+}
