@@ -1,0 +1,26 @@
+.link {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 460px;
+    height: 20px;
+    margin-top: 500px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(108, 25, 185);
+}
+
+.link h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+.link a:hover {
+    color: rgb(146, 56, 231);
+    text-decoration: underline;
+    /* font-size: 20.1px; */
+}

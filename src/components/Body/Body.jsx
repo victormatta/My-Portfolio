@@ -2,6 +2,7 @@ import "./Body.css";
 import { FaLinkedinIn, FaGithub, FaDownload } from "react-icons/fa";
 import BodyProd from "./BodyProd";
 import Arrow from "../NavBar/Arrow";
+import Link from "./Link";
 
 function Body() {
   const urlCurriculum =
@@ -60,7 +61,7 @@ function Body() {
         </div>
 
         <div className="mySelf2">
-          <h1>I'M 19 AND I'M A FRONT-END DEVELOPER FOR 1 YEAR.</h1>
+          <h1>I'M 19 AND I'M A MOBILE DEVELOPER FOR 1 YEAR.</h1>
         </div>
       </div>
       {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100">
@@ -77,6 +78,8 @@ function Body() {
       </svg> */}
       <Arrow />
       <BodyProd />
+
+      <Link />
     </div>
   );
 }
